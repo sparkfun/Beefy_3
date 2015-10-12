@@ -1,11 +1,11 @@
 SparkFun FTDI Basic Breakout Board-3.3V
 ========================================
 
-![SparkFun FTDI Basic Breakout Board-3.3V](https://cdn.sparkfun.com//assets/parts/3/9/5/8/09873-02a.jpg)
+![SparkFun Beefy 3 (3.3V FTDI Breakout)](https://cdn.sparkfun.com//assets/parts/3/9/5/8/09873-02a.jpg)
 
-[*SparkFun FTDI Basic Breakout Board-3.3V (DEV-09873)*](https://www.sparkfun.com/products/9873)
+[*SparkFun Beefy 3 (3.3V FTDI Breakout) (DEV-09873)*](https://www.sparkfun.com/products/9873)
 
-This is a basic breakout board for the FTDI FT232RL USB to serial IC. 
+This is a breakout board for the FTDI FT232RL USB to serial IC with integrated 3.3V (up to 600mA) regulator to power your project.
 The pinout of this board matches the FTDI cable to work with official Arduino and cloned 3.3V Arduino boards.
 
 Repository Contents
@@ -15,7 +15,9 @@ Repository Contents
 
 Product Versions
 ----------------
-* [DEV-09873](https://www.sparkfun.com/products/9873)- 3.3V FTDI Basic Breakout. 
+*
+[This](https://example.com)- Higher power 3.3V FTDI Breakout.
+* [DEV-09873](https://www.sparkfun.com/products/9873)- 3.3V FTDI Basic Breakout.
 * [DEV-09716](https://www.sparkfun.com/products/9716)- 5V FTDI Basic Breakout
 
 License Information
