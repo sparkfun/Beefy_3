@@ -15,7 +15,7 @@ Repository Contents
 
 Product Versions
 ----------------
-*
+* 
 [This](https://example.com)- Higher power 3.3V FTDI Breakout.
 * [DEV-09873](https://www.sparkfun.com/products/9873)- 3.3V FTDI Basic Breakout.
 * [DEV-09716](https://www.sparkfun.com/products/9716)- 5V FTDI Basic Breakout
