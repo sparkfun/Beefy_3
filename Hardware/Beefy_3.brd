@@ -181,21 +181,6 @@
 <package name="FIDUCIAL-1X2">
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 </package>
-<package name="1X06-SMD-FEMALE-V2">
-<description>Package for 4UCONN part #19686 *UNPROVEN*</description>
-<wire x1="-7.5" y1="0.45" x2="-7.5" y2="-8.05" width="0.127" layer="21"/>
-<wire x1="7.5" y1="0.45" x2="-7.5" y2="0.45" width="0.127" layer="21"/>
-<wire x1="7.5" y1="-8.05" x2="7.5" y2="0.45" width="0.127" layer="21"/>
-<wire x1="-7.5" y1="-8.05" x2="7.5" y2="-8.05" width="0.127" layer="21"/>
-<smd name="4" x="-1.27" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<smd name="5" x="-3.81" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<smd name="6" x="-6.35" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<smd name="3" x="1.27" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<smd name="2" x="3.81" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<smd name="1" x="6.35" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<text x="7.6" y="-8.3" size="1" layer="27" rot="R180">&gt;Value</text>
-<text x="-7.4" y="-9.3" size="1" layer="25">&gt;Name</text>
-</package>
 </packages>
 </library>
 <library name="SparkFun-Aesthetics">
@@ -1210,6 +1195,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <hole x="0" y="2.2" drill="0.9"/>
 <hole x="0" y="-2.2" drill="0.9"/>
 </package>
+<package name="1X06-SMD-FEMALE-V2">
+<description>Package for 4UCONN part #19686&lt;br /&gt;
+Used on FTDI breakouts</description>
+<wire x1="-7.5" y1="0.45" x2="-7.5" y2="-8.05" width="0.127" layer="21"/>
+<wire x1="7.5" y1="0.45" x2="-7.5" y2="0.45" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-8.05" x2="7.5" y2="0.45" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="-8.05" x2="7.5" y2="-8.05" width="0.127" layer="21"/>
+<smd name="4" x="-1.27" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="5" x="-3.81" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="6" x="-6.35" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="3" x="1.27" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="2" x="3.81" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="1" x="6.35" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<text x="7.6" y="-8.3" size="1" layer="27" rot="R180">&gt;Value</text>
+<text x="-7.4" y="-9.3" size="1" layer="25">&gt;Name</text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Capacitors">
@@ -1630,7 +1631,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="GREEN" x="9.3218" y="15.4305" size="0.4064" layer="27"/>
 <attribute name="PROD_ID" value="DIO-00821" x="10.2108" y="14.7955" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="JP1" library="SparkFun" package="1X06-SMD-FEMALE-V2" value="" x="8.001" y="7.9375" rot="MR90"/>
+<element name="JP1" library="SparkFun-Connectors" package="1X06-SMD-FEMALE-V2" value="" x="8.001" y="7.9375" rot="MR90">
+<attribute name="PROD_ID" value="CONN-09668" x="8.001" y="7.9375" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
 <element name="JP3" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="3.175" y="0.9271"/>
 <element name="JP4" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="21.9202" y="14.8971"/>
 <element name="JP5" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="1.6764" y="1.6891" rot="MR0"/>
@@ -1640,7 +1643,9 @@ design rules under a new name.</description>
 <element name="J1" library="SparkFun-Connectors" package="USB-MINIB" value="USB-MINIB-5PIN" x="18.288" y="7.9375" rot="R180">
 <attribute name="PROD_ID" value="CONN-08193" x="18.288" y="7.9375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U2" library="SparkFun-DigitalIC" package="SSOP28DB" value="FT232RL-BASICSSOP" x="7.62" y="7.9375"/>
+<element name="U2" library="SparkFun-DigitalIC" package="SSOP28DB" value="FT232RL-BASICSSOP" x="7.62" y="7.9375">
+<attribute name="PROD_ID" value="IC-00870" x="7.62" y="7.9375" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U1" library="SparkFun-PowerIC" package="SOT23-5" value="3.3V" x="15.6464" y="9.2583" rot="MR270">
 <attribute name="PROD_ID" value="VREG-12457" x="10.5664" y="13.0683" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
