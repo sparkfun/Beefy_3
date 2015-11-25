@@ -16689,7 +16689,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Brent Wilkins"/>
-<attribute name="VERSION" value="v01"/>
+<attribute name="VERSION" value="v10"/>
 </attributes>
 <variantdefs>
 </variantdefs>
