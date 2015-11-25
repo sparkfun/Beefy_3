@@ -17010,6 +17010,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="210.82" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="SHIELD" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="SHIELD"/>
+<wire x1="53.34" y1="124.46" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
+<label x="50.8" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
