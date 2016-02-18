@@ -1,7 +1,7 @@
 SparkFun FTDI Basic Breakout Board-3.3V
 ========================================
 
-![SparkFun Beefy 3 (3.3V FTDI Breakout)](https://cdn.sparkfun.com//assets/parts/3/9/5/8/09873-02a.jpg)
+![SparkFun Beefy 3 (3.3V FTDI Breakout)](https://cdn.sparkfun.com//assets/parts/1/1/2/7/6/13746-01.jpg)
 
 [*SparkFun Beefy 3 (3.3V FTDI Breakout) (DEV-09873)*](https://www.sparkfun.com/products/9873)
 
