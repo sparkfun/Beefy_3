@@ -10,8 +10,8 @@ The pinout of this board matches the FTDI cable to work with official Arduino an
 
 Repository Contents
 -------------------
-* **/Hardware** - All Eagle design files (.brd, .sch)
-* **/Production** - Test bed files and production panel files
+* **/Hardware** &mdash; All Eagle design files (.brd, .sch)
+* **/Production** &mdash; Test bed files and production panel files
 
 Product Versions
 ----------------
